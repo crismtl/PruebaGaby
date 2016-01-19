@@ -8,7 +8,12 @@
 module.exports = {
 
   attributes: {
-
+  	nombre: {
+      type: 'string'
+    },
+    idPastel: {
+      model: 'Pastel'
+    }
   }
 };
 
